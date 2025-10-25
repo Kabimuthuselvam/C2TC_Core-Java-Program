@@ -3,6 +3,11 @@ package com.tnsif.day5inheritanceexample;
 public class College {
  private String CollegeName;
  private String ColllegeLocation;
+
+ public College(String collegeName, String colllegeLocation) {
+	CollegeName = collegeName;
+	ColllegeLocation = colllegeLocation;
+}
  public String getCollegeName() {
 	return CollegeName;
  }
